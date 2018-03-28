@@ -212,4 +212,7 @@ class SiteController extends Controller
             'model' => $model,
         ]);
     }
+    function actionTest(){
+        echo 'asdasdasd';exit;
+    }
 }

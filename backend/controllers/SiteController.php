@@ -97,4 +97,14 @@ class SiteController extends Controller
 
         return $this->goHome();
     }
+
+    /**
+     * uesr register.
+     *
+     * @return string
+     */
+    public function actionHello()
+    {
+       return $this->render('hello');
+    }
 }
